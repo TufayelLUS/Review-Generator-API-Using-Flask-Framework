@@ -6,6 +6,7 @@ The homepage lets you pick which website you would want to scrape the product re
 More websites will be added later ...
 # Currently available websites
 * Food.com
+* Yummly.com
 # Screenshots
 - Homepage:<br>
 <img src="https://raw.githubusercontent.com/TufayelLUS/Review-Generator-API-Using-Flask-Framework/main/home.png" /><br>
