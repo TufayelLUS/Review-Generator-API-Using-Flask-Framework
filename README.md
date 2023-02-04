@@ -6,3 +6,8 @@ The homepage lets you pick which website you would want to scrape the reviews fr
 More websites will be added later ...
 # Currently available websites
 * Food.com
+# Screenshots:
+- Homepage:
+<img src="https://raw.githubusercontent.com/TufayelLUS/Review-Generator-API-Using-Flask-Framework/main/home.png" /><br>
+- API Response Page:
+<img src="https://raw.githubusercontent.com/TufayelLUS/Review-Generator-API-Using-Flask-Framework/main/api_page.png" /><br>
