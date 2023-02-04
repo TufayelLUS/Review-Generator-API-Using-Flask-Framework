@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Review Generator API By Tufayel Ahmed</title>
+    <style>
+        .chatgpt-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #6D7BFF;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .chatgpt-form h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .chatgpt-form select,
+        .chatgpt-form input[type="text"],
+        .chatgpt-form input[type="submit"] {
+            width: 200px;
+            height: 40px;
+            font-size: 18px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .chatgpt-form input[type="submit"] {
+            background-color: white;
+            color: #6D7BFF;
+            cursor: pointer;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="center-text">Review Generator API By Tufayel Ahmed</h1>
+    <form action="generate">
+        <div class="chatgpt-form">
+            <h2>Pick your choice</h2>
+            <select name="site">
+                <option value="food.com">Food.Com</option>
+            </select>
+            <select name="reviews">
+                <option value="5">5 reviews</option>
+                <option value="10">10 reviews</option>
+                <option value="15">15 reviews</option>
+                <option value="20">20 reviews</option>
+            </select>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
